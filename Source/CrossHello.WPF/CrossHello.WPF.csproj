@@ -97,9 +97,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CrossHello.Mobile\CrossHello.Mobile\CrossHello.Mobile.csproj">
-      <Project>{9c7fdb16-339f-4d53-8aab-45103a2dd09a}</Project>
-      <Name>CrossHello.Mobile</Name>
+    <ProjectReference Include="..\CrossHello.ViewModels\CrossHello.ViewModels.csproj">
+      <Project>{8aeb1a03-738d-4e61-8f00-f38e745c2ccb}</Project>
+      <Name>CrossHello.ViewModels</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

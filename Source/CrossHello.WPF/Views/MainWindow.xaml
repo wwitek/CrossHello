@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CrossHello.WPF.Views"
-        xmlns:viewModels="clr-namespace:CrossHello.Mobile.ViewModels;assembly=CrossHello.Mobile"
+        xmlns:viewModels="clr-namespace:CrossHello.ViewModels;assembly=CrossHello.ViewModels"
         mc:Ignorable="d"
         Title="CrossHello" Height="300" Width="300">
     <Window.DataContext>

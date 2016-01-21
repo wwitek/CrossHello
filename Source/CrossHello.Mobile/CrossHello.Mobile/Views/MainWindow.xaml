@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:viewModels="clr-namespace:CrossHello.Mobile.ViewModels;assembly=CrossHello.Mobile"
+             xmlns:viewModels="clr-namespace:CrossHello.ViewModels;assembly=CrossHello.ViewModels"
              x:Class="CrossHello.Mobile.Views.MainWindow">
   <ContentPage.BindingContext>
     <viewModels:MainWindowViewModel/>

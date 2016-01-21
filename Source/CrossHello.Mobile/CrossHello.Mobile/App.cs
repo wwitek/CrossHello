@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CrossHello.Mobile.ViewModels;
 using CrossHello.Mobile.Views;
 using Xamarin.Forms;
 
