@@ -96,6 +96,12 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CrossHello.Mobile\CrossHello.Mobile\CrossHello.Mobile.csproj">
+      <Project>{9c7fdb16-339f-4d53-8aab-45103a2dd09a}</Project>
+      <Name>CrossHello.Mobile</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

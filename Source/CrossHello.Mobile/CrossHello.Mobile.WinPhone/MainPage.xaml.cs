@@ -7,6 +7,7 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using System.ServiceModel;
 
 namespace CrossHello.Mobile.WinPhone
 {
@@ -20,5 +21,10 @@ namespace CrossHello.Mobile.WinPhone
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new CrossHello.Mobile.App());
         }
+    }
+
+    [ServiceContract]
+    public interface ITestService
+    {
     }
 }
