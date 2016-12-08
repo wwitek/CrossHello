@@ -127,6 +127,10 @@
     <Content Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\CrossHello.ViewModels\CrossHello.ViewModels.csproj">
+      <Project>{8aeb1a03-738d-4e61-8f00-f38e745c2ccb}</Project>
+      <Name>CrossHello.ViewModels</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CrossHello.Mobile\CrossHello.Mobile.csproj">
       <Name>CrossHello.Mobile</Name>
     </ProjectReference>

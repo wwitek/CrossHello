@@ -6,7 +6,7 @@
 
         public MainWindowViewModel()
         {
-            SayHiText = "Welcom from the PCL side ;)";
+            SayHiText = "Hello World in PCL!";
         }
     }
 }
